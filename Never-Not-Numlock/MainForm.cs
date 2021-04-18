@@ -10,12 +10,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace NeverNotNumlock
 {
     public partial class MainForm : Form
     {
         private const int C_MS = 1;
-        private const int C_SECOND = 1000 * C_MS;
         private const string C_KEYNAME = "NeverNotNumlock";
 
         public bool IsClosed { get; private set; }
